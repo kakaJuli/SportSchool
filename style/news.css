@@ -17,3 +17,9 @@ h3 {
   /* background-color: linear-gradient(to bottom right, grey, pink); */
   background: linear-gradient(to right, rgb(148, 142, 142), rgb(250, 194, 203));
 }
+
+p {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}

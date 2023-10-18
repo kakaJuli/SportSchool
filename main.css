@@ -9,6 +9,12 @@
   scroll-behavior: smooth;
 }
 
+body {
+  /* font-family: "Mukta", sans-serif; */
+  font-family: "Quicksand", sans-serif;
+  /* font-family: "Roboto Slab", serif; */
+}
+
 .container {
   width: 1280px;
   margin: 0 auto;
