@@ -1,6 +1,7 @@
 @import "/style/navigation.css";
 @import "/style/directions.css";
 @import "/style/basic.css";
+@import "/style/news.css";
 * {
   margin: 0;
   padding: 0;
