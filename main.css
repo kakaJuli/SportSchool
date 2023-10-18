@@ -15,15 +15,13 @@ ul {
 }
 
 nav {
-  /* margin-left: 10%;
-  margin-right: 10%; */
-  /* background-color: grey; */
-  /* background: linear-gradient(rgb(129, 128, 128), rgb(168, 166, 166)); */
   background: linear-gradient(to bottom right, grey, pink);
   color: rgb(83, 81, 81);
   font-size: 16px;
   font-weight: bold;
   width: 100%;
+  position: fixed;
+  border-bottom: 2px solid grey;
 }
 
 li {
@@ -38,4 +36,11 @@ img {
   height: 70px;
   margin-top: 10px;
   margin-left: 100%;
+}
+
+.sections {
+  flex-direction: column;
+  border-radius: 1px solid black;
+  height: 100px;
+  width: 100px;
 }
