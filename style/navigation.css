@@ -23,7 +23,6 @@ nav,
 ul {
   display: flex;
   width: 100%;
-  /* transform: translate(-50%, -50%); */
 }
 
 nav {
@@ -42,13 +41,14 @@ li {
   align-items: center;
 }
 
-/* .disply__non {
-  position: relative;
-  
-  background-color: aqua;
+.block {
+  position: absolute;
+
+  background: linear-gradient(to bottom right, grey, pink);
   display: block;
-  top: 85px;
-} */
+  top: 100px;
+  width: 15%;
+}
 
 li:hover {
   background-color: rgb(182, 179, 179);
