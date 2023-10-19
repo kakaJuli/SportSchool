@@ -7,6 +7,7 @@
   flex-direction: column; */
   /* background-image: url(../image/1674849585_bogatyr-club-p-sero-rozovii-gradient-fon-1.jpg);*/
   background-image: url(../image/медали.jpg);
+  background-position: 50% 40%;
 }
 
 .basic__description {
