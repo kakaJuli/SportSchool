@@ -21,11 +21,30 @@
 h1 {
   font-size: 35px;
   text-align: center;
-  color: rgb(214, 204, 204);
+
+  background: linear-gradient(
+    45deg,
+    rgb(101, 94, 95) 30%,
+    rgb(53, 52, 52) 20%,
+    rgb(73, 70, 70)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: -2px -2px 0px #fff;
 }
 
 .basic__text {
   font-size: 25px;
   text-align: center;
-  color: rgb(205, 196, 196);
+  max-width: 60%;
+
+  background: linear-gradient(
+    45deg,
+    rgb(101, 94, 95) 30%,
+    rgb(53, 52, 52) 20%,
+    rgb(73, 70, 70)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: -2px -2px 0px #fff;
 }

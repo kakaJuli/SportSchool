@@ -48,6 +48,8 @@ li {
   display: block;
   top: 100px;
   width: 15%;
+  transition: all 0.2s ease;
+  border-radius: 2%;
 }
 
 li:hover {
@@ -63,4 +65,9 @@ li:hover {
   justify-content: center;
   height: 100%;
   margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(83, 81, 81);
 }
